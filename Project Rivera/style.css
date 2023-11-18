@@ -1,0 +1,122 @@
+*{
+     margin:0;
+     padding:0;
+     font-family: 'Roboto',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%; 
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(oasis2.jpg);
+    background-size: cover;
+    background-position: centre;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: centre;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.menu-icon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    
+}
+h1{
+    color:#ffffff;
+    font-size: 100px;
+
+}
+p{
+    color:#fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+p1{
+    font-size: 20px;
+    color: #fff;
+    align-items: center;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-image: url(cactus.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.c1{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(cactus.jpg);
+}
+.c2{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(lemon.jpg);
+}
+.c3{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(melons.jpg);
+}
+.c4{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(cherry.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: 20px;
+}
+.card p{
+    text-shadow: 0 0 5px #0000;
+}
